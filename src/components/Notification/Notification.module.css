@@ -1,0 +1,11 @@
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: rgba(255, 255, 255, 0.8) 0px 3px 3px;
+}

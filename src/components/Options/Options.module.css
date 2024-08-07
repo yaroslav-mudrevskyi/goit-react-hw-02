@@ -1,0 +1,45 @@
+.pointList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: 1px solid #6b2b2b;
+  border: transparent;
+  border-radius: 12px;
+  transition: 300ms cubic-bezier(0.41, 0.6, 0.52, 0.93);
+  background: linear-gradient(
+    in oklab,
+    #0aa1cb,
+    #e1c80a,
+    #cafad8,
+    #e1c80a,
+    #0aa1cb
+  );
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  &:hover {
+    transition: 300ms cubic-bezier(0.41, 0.6, 0.52, 0.93);
+    color: #fff;
+    background: linear-gradient(
+      in oklab,
+      #1656ec,
+      #847506,
+      #d576e1,
+      #847506,
+      #1656ec
+    );
+  }
+}
+
+.reset {
+  background: rgba(138, 3, 3, 0.6);
+  &:hover {
+    background: rgba(138, 3, 3, 0.8);
+  }
+}

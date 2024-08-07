@@ -1,0 +1,13 @@
+.pointList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.btn {
+  text-shadow: 1px 1px 1px #fff, 1px 1px 1px #000;
+  color: #433e38;
+  opacity: 0.5;
+  font: 24px "";
+}
